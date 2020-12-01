@@ -2,6 +2,141 @@
   {
     "rows": 10,
     "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 5
+  },
+
+  {
+    "rows": 10,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 7
+  },
+
+  {
+    "rows": 10,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 10
+  },
+
+  {
+    "rows": 5,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 5
+  },
+
+  {
+    "rows": 5,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 7
+  },
+
+  {
+    "rows": 5,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 10
+  },
+
+  {
+    "rows": 5,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 15,
+    "obstaclePercent": 25,
+    "childrenCount": 5
+  },
+
+  {
+    "rows": 5,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 25,
+    "obstaclePercent": 25,
+    "childrenCount": 5
+  },
+
+  {
+    "rows": 5,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 35,
+    "obstaclePercent": 25,
+    "childrenCount": 5
+  },
+
+  {
+    "rows": 5,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 15,
+    "childrenCount": 5
+  },
+
+  {
+    "rows": 5,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 5
+  },
+
+  {
+    "rows": 5,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 35,
+    "childrenCount": 5
+  },
+
+  {
+    "rows": 5,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 5
+  },
+
+  {
+    "rows": 10,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 5
+  },
+
+  {
+    "rows": 15,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 5
+  },
+
+  {
+    "rows": 10,
+    "cols": 10,
     "turns": 150,
     "dirtPercent": 20,
     "obstaclePercent": 25,
