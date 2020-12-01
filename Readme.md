@@ -3,12 +3,9 @@
 Se modeló el ambiente como una clase Environment que contiene:
 
 •	Arreglo de dos dimensiones de casillas (cells) que representa todo el terreno donde se sitúan y mueven los elementos. 
-
 •	Propiedad indizada para obtener una casilla a partir de sus coordenadas.
-
 •	Arreglo para almacenar las coordenadas de las casillas que conforman el corral (Playpen).
-
-Lista de las casillas sucias (DirtyCells).
+•	Lista de las casillas sucias (DirtyCells).
 •	Lista de los niños (Children).
 •	Métodos para reiniciar los elementos del ambiente.
 
@@ -38,7 +35,7 @@ SmartRobot redefine el método Play introduciendo las mejoras propuestas al model
 
 La clase Simulation se encarga de orquestar el funcionamiento, o sea de ejecutar los turnos en los el Robot lleva a cabo sus acciones y el ambiente se modifica aleatoriamente a través del movimiento de los niños, controlando las unidades de cambio y chequeando si se alcanzan los estados finales para detener la simulación.
 
-![](img/jerarquia-de-clases.jpg)
+![](img/jerarquía-de-clases.jpg)
 
 Todas estas clases se agruparon en la biblioteca HomeRobot.Core y se implementaron dos programas de prueba que las utilizan:
 
