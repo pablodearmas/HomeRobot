@@ -1,0 +1,29 @@
+[
+  {
+    "rows": 10,
+    "cols": 10,
+    "turns": 150,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 7
+  },
+
+  {
+    "rows": 10,
+    "cols": 10,
+    "turns": 200,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 7
+  },
+
+  {
+    "rows": 10,
+    "cols": 10,
+    "turns": 250,
+    "dirtPercent": 20,
+    "obstaclePercent": 25,
+    "childrenCount": 7
+  }
+
+]

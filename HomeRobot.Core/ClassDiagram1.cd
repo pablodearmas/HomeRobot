@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HomeRobot.Core.RandomRobot" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAQAAAAAAA=</HashCode>
+      <FileName>RandomRobot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeRobot.Core.CatcherRobot" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAwAAAAAAAABAAACAMRAAAAggADAAAAgAACAAAgAAA=</HashCode>
+      <FileName>CatcherRobot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeRobot.Core.CleanerRobot" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>CleanerRobot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeRobot.Core.SmartRobot">
+    <Position X="6.5" Y="9.75" Width="2" />
+    <InheritanceLine Type="HomeRobot.Core.CatcherRobot" FixedFromPoint="true">
+      <Path>
+        <Point X="7.25" Y="9.441" />
+        <Point X="7.25" Y="9.596" />
+        <Point X="7.5" Y="9.596" />
+        <Point X="7.5" Y="9.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>SmartRobot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeRobot.Core.MobileObject" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ACAAAAACAAAAFAAAAoAAAABAAAAIAAAAAIAAAAAAIAA=</HashCode>
+      <FileName>MobileObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeRobot.Core.Cell" Collapsed="true">
+    <Position X="1.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAAQAAAAAFABIAAAACABQAAAABAAAAAEBAACAQBE=</HashCode>
+      <FileName>Cell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeRobot.Core.HomeRobot" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="HomeRobot.Core.MobileObject" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="7.198" Y="5.062" />
+        <Point X="7.198" Y="5.375" />
+        <Point X="7.25" Y="5.375" />
+        <Point X="7.25" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAAACAAABAAAAoCAEAAIAAAAAAAAkAABEQAAQAA=</HashCode>
+      <FileName>HomeRobot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeRobot.Core.Environment" Collapsed="true">
+    <Position X="4" Y="7" Width="1.5" />
+    <AssociationLine Name="children" Type="HomeRobot.Core.Child" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.625" Y="7" />
+        <Point X="4.625" Y="6.125" />
+        <Point X="3.75" Y="6.125" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AwAAAgEUjJAIZAUATUQEICJjBCAhYEiYxQIAAQJEQIE=</HashCode>
+      <FileName>Environment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="this[System.Drawing.Point]" />
+      <Property Name="Robot" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="children" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="HomeRobot.Core.Child" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="HomeRobot.Core.MobileObject" FixedFromPoint="true">
+      <Path>
+        <Point X="7.188" Y="5.062" />
+        <Point X="7.188" Y="5.375" />
+        <Point X="3" Y="5.375" />
+        <Point X="3" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABAAAAgAAgAAIAQAAAAAAgAAAAQAAAAA=</HashCode>
+      <FileName>Child.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeRobot.Core.Obstacle" Collapsed="true">
+    <Position X="9" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="HomeRobot.Core.MobileObject" FixedFromPoint="true">
+      <Path>
+        <Point X="7.188" Y="5.062" />
+        <Point X="7.188" Y="5.375" />
+        <Point X="9.75" Y="5.375" />
+        <Point X="9.75" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Obstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeRobot.Core.Simulation" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <AssociationLine Name="environment" Type="HomeRobot.Core.Environment">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.435" Y="0.524" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAEgAAAAAEAAAAAAAAAAAICAAAAAAAAAI=</HashCode>
+      <FileName>Simulation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="environment" />
+      <Field Name="robot" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
